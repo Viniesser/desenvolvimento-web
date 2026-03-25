@@ -1,54 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cadastro - Atividade 02</title>
-</head>
-<body>
-
-<form action="#">
-    <fieldset>
-    <legend>Crie sua Conta</legend>
-
-    <p>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
-    </p>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend>Crie sua Conta</legend>
 
         <p>
-            <label for="email">E-mail:</label><br>
-            <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+          <label for="nome">Nome:</label><br />
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Seu nome completo"
+          />
         </p>
 
-            <p>
-                <label for="senha">Senha:</label><br>
-                <input type="password" id="senha" name="senha" minlength="8" required>
-            </p>
+        <p>
+          <label for="email">E-mail:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="exemplo@email.com"
+          />
+        </p>
 
-            <p>
-                <strong>Gênero:</strong><br>
-                <input type="radio" id="masculino" name="genero" value="masculino">
-                <label for="masculino">Masculino</label>
-                
-                <input type="radio" id="feminino" name="genero" value="feminino">
-                <label for="feminino">Feminino</label>
-            </p>
+        <p>
+          <label for="senha">Senha:</label><br />
+          <input
+            type="password"
+            id="senha"
+            name="senha"
+            minlength="8"
+            required
+          />
+        </p>
 
-            <p>
-                <label for="bio">Biografia:</label><br>
-                <textarea id="bio" name="bio" rows="5" placeholder="Conte um pouco sobre você..."></textarea>
-            </p>
+        <p>
+          <strong>Gênero:</strong><br />
+          <input type="radio" id="masculino" name="genero" value="masculino" />
+          <label for="masculino">Masculino</label>
 
-            <p>
-                <input type="checkbox" id="termos" name="termos" required>
-                <label for="termos">Eu concordo com os termos de uso</label>
-            </p>
+          <input type="radio" id="feminino" name="genero" value="feminino" />
+          <label for="feminino">Feminino</label>
+        </p>
 
-            <button type="submit">Enviar Cadastro</button>
+        <p>
+          <label for="bio">Biografia:</label><br />
+          <textarea
+            id="bio"
+            name="bio"
+            rows="5"
+            placeholder="Conte um pouco sobre você..."
+          ></textarea>
+        </p>
 
-        </fieldset>
+        <p>
+          <input type="checkbox" id="termos" name="termos" required />
+          <label for="termos">Eu concordo com os termos de uso</label>
+        </p>
+
+        <button type="submit">Enviar Cadastro</button>
+      </fieldset>
     </form>
-
-</body>
+  </body>
 </html>
